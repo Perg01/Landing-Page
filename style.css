@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 .header {
     background-color: #1F2937;
     padding-left: 150px;
@@ -56,3 +59,50 @@ a {
     height: 200px;
     margin-left: 25px;
 }
+
+/* ------- second section ------- */
+
+.second-sec {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: #1F2937;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.box-img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.containers {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+.first-box, .second-box, .third-box, .fourth-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 104px;
+}
+.text {
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: darkslategray;
+}
+
+
+/* -------- third section -------- */
+
+/* -------- fourth section -------- */
+
